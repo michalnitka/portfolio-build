@@ -5,12 +5,12 @@ const data = [
   {
     id: 1,
     icon: <FaLinkedin className="socialIcon" />,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/michal-nitka1991/",
   },
   {
     id: 2,
     icon: <FaGithub className="socialIcon" />,
-    url: "https://github.com",
+    url: "https://github.com/michalnitka",
   },
 ]
 

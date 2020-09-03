@@ -30,7 +30,7 @@ const about = () => {
             skontaktuj się ze mną.
           </p>
           <CTA direction="/contact" styledClass="primary">
-            Contact
+            Kontakt
           </CTA>
         </div>
       </section>
