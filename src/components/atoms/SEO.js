@@ -44,6 +44,14 @@ const SEO = ({ lang }) => {
           property: `og:image:url`,
           content: `https://res.cloudinary.com/dc53h4qn6/image/upload/v1599149550/portfolio-screen_iuye6z.png`,
         },
+        {
+          property: `og:image:width`,
+          content: `533px`,
+        },
+        {
+          property: `og:image:height`,
+          content: `250px`,
+        },
       ]}
     />
   )
