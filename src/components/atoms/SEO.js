@@ -42,7 +42,7 @@ const SEO = ({ lang }) => {
         { property: `og:type`, content: `website` },
         {
           property: `og:image:url`,
-          content: `https://res.cloudinary.com/dc53h4qn6/image/upload/v1599147890/portfolio-screen_pmruyo.png`,
+          content: `https://res.cloudinary.com/dc53h4qn6/image/upload/v1599149550/portfolio-screen_iuye6z.png`,
         },
       ]}
     />
