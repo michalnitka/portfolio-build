@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import SEO from "../components/atoms/SEO"
 import Layout from "../components/templates/Layout"
 import HeroSection from "../components/organisms/HeroSection"
 import SkillsSection from "../components/organisms/SkillsSection"
@@ -11,6 +12,7 @@ export default function Home({ data }) {
   } = data
   return (
     <Layout>
+      <SEO />
       <HeroSection styleClass="section-dark" />
       <SkillsSection styleClass="section-light" />
       <ProjectsSection projects={projects} title="Przypięte projekty" button />

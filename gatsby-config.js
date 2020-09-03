@@ -6,10 +6,17 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Michał Nitka Portfolio",
+    description: "Its Michał Nitka portfolio site",
+    author: "Mihcał Nitka",
+    siteUrl: "https://michal-nitka-portfolio.netlify.app",
+  },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-strapi`,
       options: {
