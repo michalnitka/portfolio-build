@@ -16,13 +16,9 @@ const Project = ({ projects }) => {
             ))}
           </div>
           <div className="links-wrapper">
-            {card.github === "" ? (
-              ""
-            ) : (
-              <a href={card.github} target="_blank" rel="noopener noreferrer">
-                <FaGithub />
-              </a>
-            )}
+              {card.github && <a href={card.github} target="_blank" rel="noopener noreferrer">
+                  <FaGithub />
+              </a>}
 
             <a href={card.url} target="_blank" rel="noopener noreferrer">
               <FaDesktop />
